@@ -49,3 +49,7 @@ main h2 {
   font-family: 'Sigmar One', cursive;
   font-size: 1.875rem;
 }
+
+main p {
+  line-height: 1.5;
+}
