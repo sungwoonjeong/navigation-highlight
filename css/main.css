@@ -56,7 +56,10 @@ main p {
 
 footer {
   text-align: center;
-  font-size: 0.75rem;
   background-color: #ffe500;
-  padding: 0.2em 0.5em 0.3em;
+  padding: 10px;
+}
+
+footer small {
+  font-size: 0.75rem;
 }
