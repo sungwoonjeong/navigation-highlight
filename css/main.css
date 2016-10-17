@@ -19,3 +19,15 @@ nav {
   list-style: none;
   text-decoration: none;
 }
+
+nav li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  background-color: #cc1465;
+}
