@@ -7,3 +7,13 @@ html {
 header {
   background-color: #ffe500;
 }
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.nav a {
+
+}
