@@ -32,3 +32,7 @@ nav a {
   border-radius: 4px;
   text-decoration: none;
 }
+
+nav a:hover {
+  background-color: #2f2d13;
+}
