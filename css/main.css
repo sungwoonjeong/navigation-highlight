@@ -18,11 +18,11 @@ body {
 
 h1 {
   font-family: "Sigmar One", cursive;
-  font-size: 3rem;
+  font-size: 3em;
   text-align: center;
   color: #b20953;
-  padding: 0 10px;
   margin: 0;
+  line-height: 1.5;
 }
 
 nav {
@@ -42,7 +42,7 @@ nav li {
 nav a {
   display: inline-block;
   color: #fff;
-  background-color: #2f2d13;
+  background-color: #b2a212;
   padding: 0.2em 0.5em 0.3em;
   margin: 0 0 0.2em;
   border-radius: 4px;
@@ -57,14 +57,23 @@ nav .current {
   background-color: #cc1465;
 }
 
+main {
+  margin: .3em;
+}
+
 main h2 {
   color: #b20953;
   font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
 }
 
+main img {
+  max-width: 400px;
+}
+
 main p {
   line-height: 1.5;
+  color: #2f2d13;
 }
 
 footer {
