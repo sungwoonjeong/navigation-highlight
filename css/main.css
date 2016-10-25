@@ -10,6 +10,8 @@ html {
 
 header {
   background-color: #ffe500;
+  margin: 0;
+  padding: .2em;
 }
 
 body {
@@ -18,7 +20,7 @@ body {
 
 h1 {
   font-family: "Sigmar One", cursive;
-  font-size: 3rem;
+  font-size: 2.8rem;
   text-align: center;
   color: #b20953;
   margin: 0;
@@ -28,24 +30,22 @@ h1 {
 
 nav {
   list-style: none;
-  margin: 0.3em;
+  text-align: left;
 }
 
 nav ul {
-  padding: 0 0 0.4em;
+  padding: 0;
 }
 
 nav li {
   display: inline-block;
-  font-size: 1.125rem;
+  font-size: 1.13rem;
 }
 
 nav a {
-  display: inline-block;
   color: #fff;
   background-color: #b2a212;
-  padding: 0.2em 0.5em 0.3em;
-  margin: 0 0 0.2em;
+  padding: .2em .5em .3em;
   border-radius: 4px;
   text-decoration: none;
 }
@@ -60,20 +60,20 @@ nav .current {
 
 main {
   line-height: 1.5;
-  margin: .3em;
+  margin: .5em;
 }
 
 main h2 {
   color: #b20953;
   font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
-
+  font-weight: bold;
 }
 
 img {
   display: block;
   width: 100%;
-  max-width: 25em;
+  max-width: 24em;
 }
 
 main p {
@@ -87,5 +87,5 @@ footer {
 }
 
 footer small {
-  font-size: 0.75rem;
+  font-size: .75rem;
 }
